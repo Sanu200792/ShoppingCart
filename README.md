@@ -22,6 +22,10 @@ The following script file does the following
 
 ## Instructions to process request
 1. In the browser open the following page to view queue <http://localhost:8161/admin/queues.jsp>
+```
+User Name: admin
+Password: admin
+```
 2. Select _Send To_ option present in the _ProductQueue_
 3. In the _Message body_ for the _ProductQueue_, Enter the following format jsonmessage to send the request to the application and send
 ```
