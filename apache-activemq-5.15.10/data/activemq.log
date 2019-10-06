@@ -1,0 +1,393 @@
+2019-10-05 00:44:08,779 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@7bab3f1a: startup date [Sat Oct 05 00:44:08 SGT 2019]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2019-10-05 00:44:09,864 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[/Users/santhoshmanivannan/software/apache-activemq-5.15.10/data/kahadb] | org.apache.activemq.broker.BrokerService | main
+2019-10-05 00:44:10,044 | INFO  | PListStore:[/Users/santhoshmanivannan/software/apache-activemq-5.15.10/data/localhost/tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2019-10-05 00:44:10,193 | INFO  | Apache ActiveMQ 5.15.10 (localhost, ID:santhoshs-mbp.lan-59763-1570207450060-0:1) is starting | org.apache.activemq.broker.BrokerService | main
+2019-10-05 00:44:10,212 | INFO  | Listening for connections at: tcp://santhoshs-mbp.lan:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2019-10-05 00:44:10,213 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | main
+2019-10-05 00:44:10,218 | INFO  | Listening for connections at: amqp://santhoshs-mbp.lan:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2019-10-05 00:44:10,219 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | main
+2019-10-05 00:44:10,223 | INFO  | Listening for connections at: stomp://santhoshs-mbp.lan:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2019-10-05 00:44:10,224 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | main
+2019-10-05 00:44:10,228 | INFO  | Listening for connections at: mqtt://santhoshs-mbp.lan:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2019-10-05 00:44:10,229 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | main
+2019-10-05 00:44:10,236 | INFO  | Starting Jetty server | org.apache.activemq.transport.WebTransportServerSupport | main
+2019-10-05 00:44:10,317 | INFO  | Creating Jetty connector | org.apache.activemq.transport.WebTransportServerSupport | main
+2019-10-05 00:44:10,405 | WARN  | ServletContext@o.e.j.s.ServletContextHandler@6a0ac48e{/,null,STARTING} has uncovered http methods for path: / | org.eclipse.jetty.security.SecurityHandler | main
+2019-10-05 00:44:10,466 | INFO  | Listening for connections at ws://santhoshs-mbp.lan:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | main
+2019-10-05 00:44:10,466 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | main
+2019-10-05 00:44:10,468 | INFO  | Apache ActiveMQ 5.15.10 (localhost, ID:santhoshs-mbp.lan-59763-1570207450060-0:1) started | org.apache.activemq.broker.BrokerService | main
+2019-10-05 00:44:10,469 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
+2019-10-05 00:44:10,470 | WARN  | Store limit is 102400 mb (current store usage is 0 mb). The data directory: /Users/santhoshmanivannan/software/apache-activemq-5.15.10/data/kahadb only has 71908 mb of usable space. - resetting to maximum available disk space: 71908 mb | org.apache.activemq.broker.BrokerService | main
+2019-10-05 00:44:11,158 | INFO  | ActiveMQ WebConsole available at http://0.0.0.0:8161/ | org.apache.activemq.web.WebConsoleStarter | main
+2019-10-05 00:44:11,159 | INFO  | ActiveMQ Jolokia REST API available at http://0.0.0.0:8161/api/jolokia/ | org.apache.activemq.web.WebConsoleStarter | main
+2019-10-05 00:45:05,783 | INFO  | Connector vm://localhost started | org.apache.activemq.broker.TransportConnector | qtp74606989-39
+2019-10-05 10:45:44,000 | INFO  | Connector vm://localhost stopped | org.apache.activemq.broker.TransportConnector | qtp74606989-35
+2019-10-05 10:46:43,610 | INFO  | Connector vm://localhost started | org.apache.activemq.broker.TransportConnector | qtp74606989-39
+2019-10-06 01:10:50,122 | INFO  | Apache ActiveMQ 5.15.10 (localhost, ID:santhoshs-mbp.lan-59763-1570207450060-0:1) is shutting down | org.apache.activemq.broker.BrokerService | Thread-20
+2019-10-06 01:10:50,124 | INFO  | Connector openwire stopped | org.apache.activemq.broker.TransportConnector | Thread-20
+2019-10-06 01:10:50,124 | INFO  | socketQueue interrupted - stopping | org.apache.activemq.transport.tcp.TcpTransportServer | ActiveMQ Transport Server Thread Handler: tcp://0.0.0.0:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+2019-10-06 01:10:50,124 | INFO  | Connector amqp stopped | org.apache.activemq.broker.TransportConnector | Thread-20
+2019-10-06 01:10:50,124 | INFO  | socketQueue interrupted - stopping | org.apache.activemq.transport.tcp.TcpTransportServer | ActiveMQ Transport Server Thread Handler: amqp://0.0.0.0:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+2019-10-06 01:10:50,126 | INFO  | Connector stomp stopped | org.apache.activemq.broker.TransportConnector | Thread-20
+2019-10-06 01:10:50,126 | INFO  | Could not accept connection during shutdown  : {} | org.apache.activemq.broker.TransportConnector | ActiveMQ Transport Server Thread Handler: tcp://0.0.0.0:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2056)[:]
+	at java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2133)[:]
+	at java.base/java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:458)[:]
+	at org.apache.activemq.transport.tcp.TcpTransportServer$1.run(TcpTransportServer.java:494)[activemq-client-5.15.10.jar:5.15.10]
+	at java.base/java.lang.Thread.run(Thread.java:834)[:]
+2019-10-06 01:10:50,126 | INFO  | Connector mqtt stopped | org.apache.activemq.broker.TransportConnector | Thread-20
+2019-10-06 01:10:50,126 | INFO  | Could not accept connection during shutdown  : {} | org.apache.activemq.broker.TransportConnector | ActiveMQ Transport Server Thread Handler: amqp://0.0.0.0:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2056)[:]
+	at java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2133)[:]
+	at java.base/java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:458)[:]
+	at org.apache.activemq.transport.tcp.TcpTransportServer$1.run(TcpTransportServer.java:494)[activemq-client-5.15.10.jar:5.15.10]
+	at java.base/java.lang.Thread.run(Thread.java:834)[:]
+2019-10-06 01:10:50,141 | INFO  | Connector ws stopped | org.apache.activemq.broker.TransportConnector | Thread-20
+2019-10-06 01:10:50,143 | INFO  | Connector vm://localhost stopped | org.apache.activemq.broker.TransportConnector | Thread-20
+2019-10-06 01:10:50,146 | INFO  | PListStore:[/Users/santhoshmanivannan/software/apache-activemq-5.15.10/data/localhost/tmp_storage] stopped | org.apache.activemq.store.kahadb.plist.PListStoreImpl | Thread-20
+2019-10-06 01:10:50,147 | INFO  | Stopping async queue tasks | org.apache.activemq.store.kahadb.KahaDBStore | Thread-20
+2019-10-06 01:10:50,147 | INFO  | Stopping async topic tasks | org.apache.activemq.store.kahadb.KahaDBStore | Thread-20
+2019-10-06 01:10:50,147 | INFO  | Stopped KahaDB | org.apache.activemq.store.kahadb.KahaDBStore | Thread-20
+2019-10-06 01:10:50,205 | INFO  | Apache ActiveMQ 5.15.10 (localhost, ID:santhoshs-mbp.lan-59763-1570207450060-0:1) uptime 1 day | org.apache.activemq.broker.BrokerService | Thread-20
+2019-10-06 01:10:50,207 | INFO  | Apache ActiveMQ 5.15.10 (localhost, ID:santhoshs-mbp.lan-59763-1570207450060-0:1) is shutdown | org.apache.activemq.broker.BrokerService | Thread-20
+2019-10-06 01:10:50,207 | INFO  | Closing org.apache.activemq.xbean.XBeanBrokerFactory$1@7bab3f1a: startup date [Sat Oct 05 00:44:08 SGT 2019]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | Thread-20
+2019-10-06 01:11:10,466 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@7bab3f1a: startup date [Sun Oct 06 01:11:10 SGT 2019]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2019-10-06 01:11:11,372 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[/Users/santhoshmanivannan/santhosh-workspace/ShoppingCart/apache-activemq-5.15.10/data/kahadb] | org.apache.activemq.broker.BrokerService | main
+2019-10-06 01:11:11,464 | INFO  | KahaDB is version 6 | org.apache.activemq.store.kahadb.MessageDatabase | main
+2019-10-06 01:11:11,502 | INFO  | PListStore:[/Users/santhoshmanivannan/santhosh-workspace/ShoppingCart/apache-activemq-5.15.10/data/localhost/tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2019-10-06 01:11:11,648 | INFO  | Apache ActiveMQ 5.15.10 (localhost, ID:santhoshs-mbp.lan-60886-1570295471515-0:1) is starting | org.apache.activemq.broker.BrokerService | main
+2019-10-06 01:11:11,718 | INFO  | Listening for connections at: tcp://santhoshs-mbp.lan:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2019-10-06 01:11:11,720 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | main
+2019-10-06 01:11:11,724 | INFO  | Listening for connections at: amqp://santhoshs-mbp.lan:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2019-10-06 01:11:11,725 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | main
+2019-10-06 01:11:11,729 | INFO  | Listening for connections at: stomp://santhoshs-mbp.lan:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2019-10-06 01:11:11,730 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | main
+2019-10-06 01:11:11,734 | INFO  | Listening for connections at: mqtt://santhoshs-mbp.lan:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2019-10-06 01:11:11,735 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | main
+2019-10-06 01:11:11,742 | INFO  | Starting Jetty server | org.apache.activemq.transport.WebTransportServerSupport | main
+2019-10-06 01:11:11,839 | INFO  | Creating Jetty connector | org.apache.activemq.transport.WebTransportServerSupport | main
+2019-10-06 01:11:11,928 | WARN  | ServletContext@o.e.j.s.ServletContextHandler@3cd206b5{/,null,STARTING} has uncovered http methods for path: / | org.eclipse.jetty.security.SecurityHandler | main
+2019-10-06 01:11:11,990 | INFO  | Listening for connections at ws://santhoshs-mbp.lan:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | main
+2019-10-06 01:11:11,991 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | main
+2019-10-06 01:11:11,992 | INFO  | Apache ActiveMQ 5.15.10 (localhost, ID:santhoshs-mbp.lan-60886-1570295471515-0:1) started | org.apache.activemq.broker.BrokerService | main
+2019-10-06 01:11:11,993 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
+2019-10-06 01:11:11,994 | WARN  | Store limit is 102400 mb (current store usage is 0 mb). The data directory: /Users/santhoshmanivannan/santhosh-workspace/ShoppingCart/apache-activemq-5.15.10/data/kahadb only has 72297 mb of usable space. - resetting to maximum available disk space: 72297 mb | org.apache.activemq.broker.BrokerService | main
+2019-10-06 01:11:12,650 | INFO  | ActiveMQ WebConsole available at http://0.0.0.0:8161/ | org.apache.activemq.web.WebConsoleStarter | main
+2019-10-06 01:11:12,650 | INFO  | ActiveMQ Jolokia REST API available at http://0.0.0.0:8161/api/jolokia/ | org.apache.activemq.web.WebConsoleStarter | main
+2019-10-06 01:12:06,738 | INFO  | Apache ActiveMQ 5.15.10 (localhost, ID:santhoshs-mbp.lan-60886-1570295471515-0:1) is shutting down | org.apache.activemq.broker.BrokerService | Thread-23
+2019-10-06 01:12:06,742 | INFO  | Connector openwire stopped | org.apache.activemq.broker.TransportConnector | Thread-23
+2019-10-06 01:12:06,744 | INFO  | Connector amqp stopped | org.apache.activemq.broker.TransportConnector | Thread-23
+2019-10-06 01:12:06,746 | INFO  | Connector stomp stopped | org.apache.activemq.broker.TransportConnector | Thread-23
+2019-10-06 01:12:06,746 | INFO  | Connector mqtt stopped | org.apache.activemq.broker.TransportConnector | Thread-23
+2019-10-06 01:12:06,753 | INFO  | Connector ws stopped | org.apache.activemq.broker.TransportConnector | Thread-23
+2019-10-06 01:12:06,760 | INFO  | PListStore:[/Users/santhoshmanivannan/santhosh-workspace/ShoppingCart/apache-activemq-5.15.10/data/localhost/tmp_storage] stopped | org.apache.activemq.store.kahadb.plist.PListStoreImpl | Thread-23
+2019-10-06 01:12:06,761 | INFO  | Stopping async queue tasks | org.apache.activemq.store.kahadb.KahaDBStore | Thread-23
+2019-10-06 01:12:06,761 | INFO  | Stopping async topic tasks | org.apache.activemq.store.kahadb.KahaDBStore | Thread-23
+2019-10-06 01:12:06,763 | INFO  | Stopped KahaDB | org.apache.activemq.store.kahadb.KahaDBStore | Thread-23
+2019-10-06 01:12:06,818 | INFO  | Apache ActiveMQ 5.15.10 (localhost, ID:santhoshs-mbp.lan-60886-1570295471515-0:1) uptime 55.462 seconds | org.apache.activemq.broker.BrokerService | Thread-23
+2019-10-06 01:12:06,819 | INFO  | Apache ActiveMQ 5.15.10 (localhost, ID:santhoshs-mbp.lan-60886-1570295471515-0:1) is shutdown | org.apache.activemq.broker.BrokerService | Thread-23
+2019-10-06 01:12:06,820 | INFO  | Closing org.apache.activemq.xbean.XBeanBrokerFactory$1@7bab3f1a: startup date [Sun Oct 06 01:11:10 SGT 2019]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | Thread-23
+2019-10-06 01:12:17,174 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@7bab3f1a: startup date [Sun Oct 06 01:12:17 SGT 2019]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2019-10-06 01:12:17,965 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[/Users/santhoshmanivannan/santhosh-workspace/ShoppingCart/apache-activemq-5.15.10/data/kahadb] | org.apache.activemq.broker.BrokerService | main
+2019-10-06 01:12:18,047 | INFO  | KahaDB is version 6 | org.apache.activemq.store.kahadb.MessageDatabase | main
+2019-10-06 01:12:18,079 | INFO  | PListStore:[/Users/santhoshmanivannan/santhosh-workspace/ShoppingCart/apache-activemq-5.15.10/data/localhost/tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2019-10-06 01:12:18,212 | INFO  | Apache ActiveMQ 5.15.10 (localhost, ID:santhoshs-mbp.lan-61162-1570295538088-0:1) is starting | org.apache.activemq.broker.BrokerService | main
+2019-10-06 01:12:18,267 | INFO  | Listening for connections at: tcp://santhoshs-mbp.lan:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2019-10-06 01:12:18,268 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | main
+2019-10-06 01:12:18,272 | INFO  | Listening for connections at: amqp://santhoshs-mbp.lan:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2019-10-06 01:12:18,279 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | main
+2019-10-06 01:12:18,282 | INFO  | Listening for connections at: stomp://santhoshs-mbp.lan:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2019-10-06 01:12:18,283 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | main
+2019-10-06 01:12:18,286 | INFO  | Listening for connections at: mqtt://santhoshs-mbp.lan:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2019-10-06 01:12:18,287 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | main
+2019-10-06 01:12:18,292 | INFO  | Starting Jetty server | org.apache.activemq.transport.WebTransportServerSupport | main
+2019-10-06 01:12:18,344 | INFO  | Creating Jetty connector | org.apache.activemq.transport.WebTransportServerSupport | main
+2019-10-06 01:12:18,413 | WARN  | ServletContext@o.e.j.s.ServletContextHandler@3cd206b5{/,null,STARTING} has uncovered http methods for path: / | org.eclipse.jetty.security.SecurityHandler | main
+2019-10-06 01:12:18,462 | INFO  | Listening for connections at ws://santhoshs-mbp.lan:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | main
+2019-10-06 01:12:18,463 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | main
+2019-10-06 01:12:18,464 | INFO  | Apache ActiveMQ 5.15.10 (localhost, ID:santhoshs-mbp.lan-61162-1570295538088-0:1) started | org.apache.activemq.broker.BrokerService | main
+2019-10-06 01:12:18,465 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
+2019-10-06 01:12:18,466 | WARN  | Store limit is 102400 mb (current store usage is 0 mb). The data directory: /Users/santhoshmanivannan/santhosh-workspace/ShoppingCart/apache-activemq-5.15.10/data/kahadb only has 72294 mb of usable space. - resetting to maximum available disk space: 72294 mb | org.apache.activemq.broker.BrokerService | main
+2019-10-06 01:12:19,065 | INFO  | ActiveMQ WebConsole available at http://0.0.0.0:8161/ | org.apache.activemq.web.WebConsoleStarter | main
+2019-10-06 01:12:19,066 | INFO  | ActiveMQ Jolokia REST API available at http://0.0.0.0:8161/api/jolokia/ | org.apache.activemq.web.WebConsoleStarter | main
+2019-10-06 01:14:05,841 | INFO  | Apache ActiveMQ 5.15.10 (localhost, ID:santhoshs-mbp.lan-61162-1570295538088-0:1) is shutting down | org.apache.activemq.broker.BrokerService | Thread-23
+2019-10-06 01:14:05,844 | INFO  | Connector openwire stopped | org.apache.activemq.broker.TransportConnector | Thread-23
+2019-10-06 01:14:05,844 | INFO  | socketQueue interrupted - stopping | org.apache.activemq.transport.tcp.TcpTransportServer | ActiveMQ Transport Server Thread Handler: tcp://0.0.0.0:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+2019-10-06 01:14:05,846 | INFO  | Connector amqp stopped | org.apache.activemq.broker.TransportConnector | Thread-23
+2019-10-06 01:14:05,847 | INFO  | Could not accept connection during shutdown  : {} | org.apache.activemq.broker.TransportConnector | ActiveMQ Transport Server Thread Handler: tcp://0.0.0.0:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2056)[:]
+	at java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2133)[:]
+	at java.base/java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:458)[:]
+	at org.apache.activemq.transport.tcp.TcpTransportServer$1.run(TcpTransportServer.java:494)[activemq-client-5.15.10.jar:5.15.10]
+	at java.base/java.lang.Thread.run(Thread.java:834)[:]
+2019-10-06 01:14:05,847 | INFO  | Connector stomp stopped | org.apache.activemq.broker.TransportConnector | Thread-23
+2019-10-06 01:14:05,849 | INFO  | Connector mqtt stopped | org.apache.activemq.broker.TransportConnector | Thread-23
+2019-10-06 01:14:05,856 | INFO  | Connector ws stopped | org.apache.activemq.broker.TransportConnector | Thread-23
+2019-10-06 01:14:05,860 | INFO  | PListStore:[/Users/santhoshmanivannan/santhosh-workspace/ShoppingCart/apache-activemq-5.15.10/data/localhost/tmp_storage] stopped | org.apache.activemq.store.kahadb.plist.PListStoreImpl | Thread-23
+2019-10-06 01:14:05,861 | INFO  | Stopping async queue tasks | org.apache.activemq.store.kahadb.KahaDBStore | Thread-23
+2019-10-06 01:14:05,862 | INFO  | Stopping async topic tasks | org.apache.activemq.store.kahadb.KahaDBStore | Thread-23
+2019-10-06 01:14:05,863 | INFO  | Stopped KahaDB | org.apache.activemq.store.kahadb.KahaDBStore | Thread-23
+2019-10-06 01:14:05,923 | INFO  | Apache ActiveMQ 5.15.10 (localhost, ID:santhoshs-mbp.lan-61162-1570295538088-0:1) uptime 1 minute | org.apache.activemq.broker.BrokerService | Thread-23
+2019-10-06 01:14:05,924 | INFO  | Apache ActiveMQ 5.15.10 (localhost, ID:santhoshs-mbp.lan-61162-1570295538088-0:1) is shutdown | org.apache.activemq.broker.BrokerService | Thread-23
+2019-10-06 01:14:05,925 | INFO  | Closing org.apache.activemq.xbean.XBeanBrokerFactory$1@7bab3f1a: startup date [Sun Oct 06 01:12:17 SGT 2019]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | Thread-23
+2019-10-06 01:16:21,674 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@7bab3f1a: startup date [Sun Oct 06 01:16:21 SGT 2019]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2019-10-06 01:16:22,533 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[/Users/santhoshmanivannan/santhosh-workspace/ShoppingCart/apache-activemq-5.15.10/data/kahadb] | org.apache.activemq.broker.BrokerService | main
+2019-10-06 01:16:22,616 | INFO  | KahaDB is version 6 | org.apache.activemq.store.kahadb.MessageDatabase | main
+2019-10-06 01:16:22,648 | INFO  | PListStore:[/Users/santhoshmanivannan/santhosh-workspace/ShoppingCart/apache-activemq-5.15.10/data/localhost/tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2019-10-06 01:16:22,784 | INFO  | Apache ActiveMQ 5.15.10 (localhost, ID:santhoshs-mbp.lan-62151-1570295782657-0:1) is starting | org.apache.activemq.broker.BrokerService | main
+2019-10-06 01:16:22,839 | INFO  | Listening for connections at: tcp://santhoshs-mbp.lan:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2019-10-06 01:16:22,840 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | main
+2019-10-06 01:16:22,852 | INFO  | Listening for connections at: amqp://santhoshs-mbp.lan:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2019-10-06 01:16:22,853 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | main
+2019-10-06 01:16:22,856 | INFO  | Listening for connections at: stomp://santhoshs-mbp.lan:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2019-10-06 01:16:22,857 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | main
+2019-10-06 01:16:22,860 | INFO  | Listening for connections at: mqtt://santhoshs-mbp.lan:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2019-10-06 01:16:22,861 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | main
+2019-10-06 01:16:22,866 | INFO  | Starting Jetty server | org.apache.activemq.transport.WebTransportServerSupport | main
+2019-10-06 01:16:22,919 | INFO  | Creating Jetty connector | org.apache.activemq.transport.WebTransportServerSupport | main
+2019-10-06 01:16:22,992 | WARN  | ServletContext@o.e.j.s.ServletContextHandler@3cd206b5{/,null,STARTING} has uncovered http methods for path: / | org.eclipse.jetty.security.SecurityHandler | main
+2019-10-06 01:16:23,038 | INFO  | Listening for connections at ws://santhoshs-mbp.lan:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | main
+2019-10-06 01:16:23,040 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | main
+2019-10-06 01:16:23,040 | INFO  | Apache ActiveMQ 5.15.10 (localhost, ID:santhoshs-mbp.lan-62151-1570295782657-0:1) started | org.apache.activemq.broker.BrokerService | main
+2019-10-06 01:16:23,041 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
+2019-10-06 01:16:23,042 | WARN  | Store limit is 102400 mb (current store usage is 0 mb). The data directory: /Users/santhoshmanivannan/santhosh-workspace/ShoppingCart/apache-activemq-5.15.10/data/kahadb only has 72296 mb of usable space. - resetting to maximum available disk space: 72296 mb | org.apache.activemq.broker.BrokerService | main
+2019-10-06 01:16:23,645 | INFO  | ActiveMQ WebConsole available at http://0.0.0.0:8161/ | org.apache.activemq.web.WebConsoleStarter | main
+2019-10-06 01:16:23,646 | INFO  | ActiveMQ Jolokia REST API available at http://0.0.0.0:8161/api/jolokia/ | org.apache.activemq.web.WebConsoleStarter | main
+2019-10-06 01:16:53,768 | INFO  | Apache ActiveMQ 5.15.10 (localhost, ID:santhoshs-mbp.lan-62151-1570295782657-0:1) is shutting down | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2019-10-06 01:16:53,771 | INFO  | Connector openwire stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2019-10-06 01:16:53,773 | INFO  | Connector amqp stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2019-10-06 01:16:53,774 | INFO  | Connector stomp stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2019-10-06 01:16:53,775 | INFO  | Connector mqtt stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2019-10-06 01:16:53,781 | INFO  | Connector ws stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2019-10-06 01:16:53,785 | INFO  | PListStore:[/Users/santhoshmanivannan/santhosh-workspace/ShoppingCart/apache-activemq-5.15.10/data/localhost/tmp_storage] stopped | org.apache.activemq.store.kahadb.plist.PListStoreImpl | ActiveMQ ShutdownHook
+2019-10-06 01:16:53,786 | INFO  | Stopping async queue tasks | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2019-10-06 01:16:53,786 | INFO  | Stopping async topic tasks | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2019-10-06 01:16:53,787 | INFO  | Stopped KahaDB | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2019-10-06 01:16:53,840 | INFO  | Apache ActiveMQ 5.15.10 (localhost, ID:santhoshs-mbp.lan-62151-1570295782657-0:1) uptime 31.327 seconds | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2019-10-06 01:16:53,842 | INFO  | Apache ActiveMQ 5.15.10 (localhost, ID:santhoshs-mbp.lan-62151-1570295782657-0:1) is shutdown | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2019-10-06 01:16:53,842 | INFO  | Closing org.apache.activemq.xbean.XBeanBrokerFactory$1@7bab3f1a: startup date [Sun Oct 06 01:16:21 SGT 2019]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | ActiveMQ ShutdownHook
+2019-10-06 01:16:55,805 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@7bab3f1a: startup date [Sun Oct 06 01:16:55 SGT 2019]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2019-10-06 01:16:56,844 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[/Users/santhoshmanivannan/santhosh-workspace/ShoppingCart/apache-activemq-5.15.10/data/kahadb] | org.apache.activemq.broker.BrokerService | main
+2019-10-06 01:16:56,938 | INFO  | KahaDB is version 6 | org.apache.activemq.store.kahadb.MessageDatabase | main
+2019-10-06 01:16:56,979 | INFO  | PListStore:[/Users/santhoshmanivannan/santhosh-workspace/ShoppingCart/apache-activemq-5.15.10/data/localhost/tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2019-10-06 01:16:57,114 | INFO  | Apache ActiveMQ 5.15.10 (localhost, ID:santhoshs-mbp.lan-62294-1570295816991-0:1) is starting | org.apache.activemq.broker.BrokerService | main
+2019-10-06 01:16:57,183 | INFO  | Listening for connections at: tcp://santhoshs-mbp.lan:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2019-10-06 01:16:57,185 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | main
+2019-10-06 01:16:57,189 | INFO  | Listening for connections at: amqp://santhoshs-mbp.lan:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2019-10-06 01:16:57,190 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | main
+2019-10-06 01:16:57,194 | INFO  | Listening for connections at: stomp://santhoshs-mbp.lan:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2019-10-06 01:16:57,195 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | main
+2019-10-06 01:16:57,199 | INFO  | Listening for connections at: mqtt://santhoshs-mbp.lan:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2019-10-06 01:16:57,201 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | main
+2019-10-06 01:16:57,208 | INFO  | Starting Jetty server | org.apache.activemq.transport.WebTransportServerSupport | main
+2019-10-06 01:16:57,280 | INFO  | Creating Jetty connector | org.apache.activemq.transport.WebTransportServerSupport | main
+2019-10-06 01:16:57,366 | WARN  | ServletContext@o.e.j.s.ServletContextHandler@3cd206b5{/,null,STARTING} has uncovered http methods for path: / | org.eclipse.jetty.security.SecurityHandler | main
+2019-10-06 01:16:57,422 | INFO  | Listening for connections at ws://santhoshs-mbp.lan:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | main
+2019-10-06 01:16:57,425 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | main
+2019-10-06 01:16:57,426 | INFO  | Apache ActiveMQ 5.15.10 (localhost, ID:santhoshs-mbp.lan-62294-1570295816991-0:1) started | org.apache.activemq.broker.BrokerService | main
+2019-10-06 01:16:57,426 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
+2019-10-06 01:16:57,428 | WARN  | Store limit is 102400 mb (current store usage is 0 mb). The data directory: /Users/santhoshmanivannan/santhosh-workspace/ShoppingCart/apache-activemq-5.15.10/data/kahadb only has 72294 mb of usable space. - resetting to maximum available disk space: 72294 mb | org.apache.activemq.broker.BrokerService | main
+2019-10-06 01:16:58,210 | INFO  | ActiveMQ WebConsole available at http://0.0.0.0:8161/ | org.apache.activemq.web.WebConsoleStarter | main
+2019-10-06 01:16:58,210 | INFO  | ActiveMQ Jolokia REST API available at http://0.0.0.0:8161/api/jolokia/ | org.apache.activemq.web.WebConsoleStarter | main
+2019-10-06 01:19:10,554 | INFO  | Apache ActiveMQ 5.15.10 (localhost, ID:santhoshs-mbp.lan-62294-1570295816991-0:1) is shutting down | org.apache.activemq.broker.BrokerService | Thread-23
+2019-10-06 01:19:10,557 | INFO  | Connector openwire stopped | org.apache.activemq.broker.TransportConnector | Thread-23
+2019-10-06 01:19:10,558 | INFO  | Connector amqp stopped | org.apache.activemq.broker.TransportConnector | Thread-23
+2019-10-06 01:19:10,559 | INFO  | Connector stomp stopped | org.apache.activemq.broker.TransportConnector | Thread-23
+2019-10-06 01:19:10,560 | INFO  | Connector mqtt stopped | org.apache.activemq.broker.TransportConnector | Thread-23
+2019-10-06 01:19:10,567 | INFO  | Connector ws stopped | org.apache.activemq.broker.TransportConnector | Thread-23
+2019-10-06 01:19:10,570 | INFO  | PListStore:[/Users/santhoshmanivannan/santhosh-workspace/ShoppingCart/apache-activemq-5.15.10/data/localhost/tmp_storage] stopped | org.apache.activemq.store.kahadb.plist.PListStoreImpl | Thread-23
+2019-10-06 01:19:10,571 | INFO  | Stopping async queue tasks | org.apache.activemq.store.kahadb.KahaDBStore | Thread-23
+2019-10-06 01:19:10,571 | INFO  | Stopping async topic tasks | org.apache.activemq.store.kahadb.KahaDBStore | Thread-23
+2019-10-06 01:19:10,572 | INFO  | Stopped KahaDB | org.apache.activemq.store.kahadb.KahaDBStore | Thread-23
+2019-10-06 01:19:10,630 | INFO  | Apache ActiveMQ 5.15.10 (localhost, ID:santhoshs-mbp.lan-62294-1570295816991-0:1) uptime 2 minutes | org.apache.activemq.broker.BrokerService | Thread-23
+2019-10-06 01:19:10,631 | INFO  | Apache ActiveMQ 5.15.10 (localhost, ID:santhoshs-mbp.lan-62294-1570295816991-0:1) is shutdown | org.apache.activemq.broker.BrokerService | Thread-23
+2019-10-06 01:19:10,632 | INFO  | Closing org.apache.activemq.xbean.XBeanBrokerFactory$1@7bab3f1a: startup date [Sun Oct 06 01:16:55 SGT 2019]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | Thread-23
+2019-10-06 01:19:12,529 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@7bab3f1a: startup date [Sun Oct 06 01:19:12 SGT 2019]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2019-10-06 01:19:13,531 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[/Users/santhoshmanivannan/santhosh-workspace/ShoppingCart/apache-activemq-5.15.10/data/kahadb] | org.apache.activemq.broker.BrokerService | main
+2019-10-06 01:19:13,613 | INFO  | KahaDB is version 6 | org.apache.activemq.store.kahadb.MessageDatabase | main
+2019-10-06 01:19:13,661 | INFO  | PListStore:[/Users/santhoshmanivannan/santhosh-workspace/ShoppingCart/apache-activemq-5.15.10/data/localhost/tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2019-10-06 01:19:13,806 | INFO  | Apache ActiveMQ 5.15.10 (localhost, ID:santhoshs-mbp.lan-62851-1570295953674-0:1) is starting | org.apache.activemq.broker.BrokerService | main
+2019-10-06 01:19:13,892 | INFO  | Listening for connections at: tcp://santhoshs-mbp.lan:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2019-10-06 01:19:13,893 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | main
+2019-10-06 01:19:13,898 | INFO  | Listening for connections at: amqp://santhoshs-mbp.lan:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2019-10-06 01:19:13,899 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | main
+2019-10-06 01:19:13,904 | INFO  | Listening for connections at: stomp://santhoshs-mbp.lan:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2019-10-06 01:19:13,905 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | main
+2019-10-06 01:19:13,910 | INFO  | Listening for connections at: mqtt://santhoshs-mbp.lan:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2019-10-06 01:19:13,911 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | main
+2019-10-06 01:19:13,919 | INFO  | Starting Jetty server | org.apache.activemq.transport.WebTransportServerSupport | main
+2019-10-06 01:19:14,009 | INFO  | Creating Jetty connector | org.apache.activemq.transport.WebTransportServerSupport | main
+2019-10-06 01:19:14,105 | WARN  | ServletContext@o.e.j.s.ServletContextHandler@3cd206b5{/,null,STARTING} has uncovered http methods for path: / | org.eclipse.jetty.security.SecurityHandler | main
+2019-10-06 01:19:14,166 | INFO  | Listening for connections at ws://santhoshs-mbp.lan:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | main
+2019-10-06 01:19:14,168 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | main
+2019-10-06 01:19:14,171 | INFO  | Apache ActiveMQ 5.15.10 (localhost, ID:santhoshs-mbp.lan-62851-1570295953674-0:1) started | org.apache.activemq.broker.BrokerService | main
+2019-10-06 01:19:14,172 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
+2019-10-06 01:19:14,173 | WARN  | Store limit is 102400 mb (current store usage is 0 mb). The data directory: /Users/santhoshmanivannan/santhosh-workspace/ShoppingCart/apache-activemq-5.15.10/data/kahadb only has 72298 mb of usable space. - resetting to maximum available disk space: 72298 mb | org.apache.activemq.broker.BrokerService | main
+2019-10-06 01:19:15,132 | INFO  | ActiveMQ WebConsole available at http://0.0.0.0:8161/ | org.apache.activemq.web.WebConsoleStarter | main
+2019-10-06 01:19:15,133 | INFO  | ActiveMQ Jolokia REST API available at http://0.0.0.0:8161/api/jolokia/ | org.apache.activemq.web.WebConsoleStarter | main
+2019-10-06 10:40:40,055 | INFO  | Apache ActiveMQ 5.15.10 (localhost, ID:santhoshs-mbp.lan-62851-1570295953674-0:1) is shutting down | org.apache.activemq.broker.BrokerService | Thread-23
+2019-10-06 10:40:40,062 | INFO  | socketQueue interrupted - stopping | org.apache.activemq.transport.tcp.TcpTransportServer | ActiveMQ Transport Server Thread Handler: tcp://0.0.0.0:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+2019-10-06 10:40:40,062 | INFO  | Connector openwire stopped | org.apache.activemq.broker.TransportConnector | Thread-23
+2019-10-06 10:40:40,064 | INFO  | Could not accept connection during shutdown  : {} | org.apache.activemq.broker.TransportConnector | ActiveMQ Transport Server Thread Handler: tcp://0.0.0.0:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2056)[:]
+	at java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2133)[:]
+	at java.base/java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:458)[:]
+	at org.apache.activemq.transport.tcp.TcpTransportServer$1.run(TcpTransportServer.java:494)[activemq-client-5.15.10.jar:5.15.10]
+	at java.base/java.lang.Thread.run(Thread.java:834)[:]
+2019-10-06 10:40:40,065 | INFO  | Connector amqp stopped | org.apache.activemq.broker.TransportConnector | Thread-23
+2019-10-06 10:40:40,065 | INFO  | socketQueue interrupted - stopping | org.apache.activemq.transport.tcp.TcpTransportServer | ActiveMQ Transport Server Thread Handler: amqp://0.0.0.0:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+2019-10-06 10:40:40,070 | INFO  | Connector stomp stopped | org.apache.activemq.broker.TransportConnector | Thread-23
+2019-10-06 10:40:40,070 | INFO  | Could not accept connection during shutdown  : {} | org.apache.activemq.broker.TransportConnector | ActiveMQ Transport Server Thread Handler: amqp://0.0.0.0:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2056)[:]
+	at java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2133)[:]
+	at java.base/java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:458)[:]
+	at org.apache.activemq.transport.tcp.TcpTransportServer$1.run(TcpTransportServer.java:494)[activemq-client-5.15.10.jar:5.15.10]
+	at java.base/java.lang.Thread.run(Thread.java:834)[:]
+2019-10-06 10:40:40,072 | INFO  | Connector mqtt stopped | org.apache.activemq.broker.TransportConnector | Thread-23
+2019-10-06 10:40:40,082 | INFO  | Connector ws stopped | org.apache.activemq.broker.TransportConnector | Thread-23
+2019-10-06 10:40:40,088 | INFO  | PListStore:[/Users/santhoshmanivannan/santhosh-workspace/ShoppingCart/apache-activemq-5.15.10/data/localhost/tmp_storage] stopped | org.apache.activemq.store.kahadb.plist.PListStoreImpl | Thread-23
+2019-10-06 10:40:40,089 | INFO  | Stopping async queue tasks | org.apache.activemq.store.kahadb.KahaDBStore | Thread-23
+2019-10-06 10:40:40,089 | INFO  | Stopping async topic tasks | org.apache.activemq.store.kahadb.KahaDBStore | Thread-23
+2019-10-06 10:40:40,090 | INFO  | Stopped KahaDB | org.apache.activemq.store.kahadb.KahaDBStore | Thread-23
+2019-10-06 10:40:40,146 | INFO  | Apache ActiveMQ 5.15.10 (localhost, ID:santhoshs-mbp.lan-62851-1570295953674-0:1) uptime 9 hours 21 minutes | org.apache.activemq.broker.BrokerService | Thread-23
+2019-10-06 10:40:40,148 | INFO  | Apache ActiveMQ 5.15.10 (localhost, ID:santhoshs-mbp.lan-62851-1570295953674-0:1) is shutdown | org.apache.activemq.broker.BrokerService | Thread-23
+2019-10-06 10:40:40,149 | INFO  | Closing org.apache.activemq.xbean.XBeanBrokerFactory$1@7bab3f1a: startup date [Sun Oct 06 01:19:12 SGT 2019]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | Thread-23
+2019-10-06 10:41:50,254 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@7bab3f1a: startup date [Sun Oct 06 10:41:50 SGT 2019]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2019-10-06 10:41:51,304 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[/Users/santhoshmanivannan/santhosh-workspace/ShoppingCart/apache-activemq-5.15.10/data/kahadb] | org.apache.activemq.broker.BrokerService | main
+2019-10-06 10:41:51,396 | INFO  | KahaDB is version 6 | org.apache.activemq.store.kahadb.MessageDatabase | main
+2019-10-06 10:41:51,434 | INFO  | PListStore:[/Users/santhoshmanivannan/santhosh-workspace/ShoppingCart/apache-activemq-5.15.10/data/localhost/tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2019-10-06 10:41:51,576 | INFO  | Apache ActiveMQ 5.15.10 (localhost, ID:santhoshs-mbp.lan-60172-1570329711446-0:1) is starting | org.apache.activemq.broker.BrokerService | main
+2019-10-06 10:41:51,672 | INFO  | Listening for connections at: tcp://santhoshs-mbp.lan:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2019-10-06 10:41:51,674 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | main
+2019-10-06 10:41:51,679 | INFO  | Listening for connections at: amqp://santhoshs-mbp.lan:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2019-10-06 10:41:51,680 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | main
+2019-10-06 10:41:51,689 | INFO  | Listening for connections at: stomp://santhoshs-mbp.lan:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2019-10-06 10:41:51,691 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | main
+2019-10-06 10:41:51,697 | INFO  | Listening for connections at: mqtt://santhoshs-mbp.lan:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2019-10-06 10:41:51,699 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | main
+2019-10-06 10:41:51,706 | INFO  | Starting Jetty server | org.apache.activemq.transport.WebTransportServerSupport | main
+2019-10-06 10:41:51,808 | INFO  | Creating Jetty connector | org.apache.activemq.transport.WebTransportServerSupport | main
+2019-10-06 10:41:51,939 | WARN  | ServletContext@o.e.j.s.ServletContextHandler@3cd206b5{/,null,STARTING} has uncovered http methods for path: / | org.eclipse.jetty.security.SecurityHandler | main
+2019-10-06 10:41:52,017 | INFO  | Listening for connections at ws://santhoshs-mbp.lan:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | main
+2019-10-06 10:41:52,020 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | main
+2019-10-06 10:41:52,021 | INFO  | Apache ActiveMQ 5.15.10 (localhost, ID:santhoshs-mbp.lan-60172-1570329711446-0:1) started | org.apache.activemq.broker.BrokerService | main
+2019-10-06 10:41:52,022 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
+2019-10-06 10:41:52,023 | WARN  | Store limit is 102400 mb (current store usage is 0 mb). The data directory: /Users/santhoshmanivannan/santhosh-workspace/ShoppingCart/apache-activemq-5.15.10/data/kahadb only has 70459 mb of usable space. - resetting to maximum available disk space: 70459 mb | org.apache.activemq.broker.BrokerService | main
+2019-10-06 10:41:53,087 | INFO  | ActiveMQ WebConsole available at http://0.0.0.0:8161/ | org.apache.activemq.web.WebConsoleStarter | main
+2019-10-06 10:41:53,088 | INFO  | ActiveMQ Jolokia REST API available at http://0.0.0.0:8161/api/jolokia/ | org.apache.activemq.web.WebConsoleStarter | main
+2019-10-06 10:43:04,549 | INFO  | Apache ActiveMQ 5.15.10 (localhost, ID:santhoshs-mbp.lan-60172-1570329711446-0:1) is shutting down | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2019-10-06 10:43:04,551 | INFO  | Connector openwire stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2019-10-06 10:43:04,552 | INFO  | Connector amqp stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2019-10-06 10:43:04,553 | INFO  | Connector stomp stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2019-10-06 10:43:04,553 | INFO  | Connector mqtt stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2019-10-06 10:43:04,559 | INFO  | Connector ws stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2019-10-06 10:43:04,561 | INFO  | PListStore:[/Users/santhoshmanivannan/santhosh-workspace/ShoppingCart/apache-activemq-5.15.10/data/localhost/tmp_storage] stopped | org.apache.activemq.store.kahadb.plist.PListStoreImpl | ActiveMQ ShutdownHook
+2019-10-06 10:43:04,562 | INFO  | Stopping async queue tasks | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2019-10-06 10:43:04,562 | INFO  | Stopping async topic tasks | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2019-10-06 10:43:04,562 | INFO  | Stopped KahaDB | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2019-10-06 10:43:04,622 | INFO  | Apache ActiveMQ 5.15.10 (localhost, ID:santhoshs-mbp.lan-60172-1570329711446-0:1) uptime 1 minute | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2019-10-06 10:43:04,625 | INFO  | Apache ActiveMQ 5.15.10 (localhost, ID:santhoshs-mbp.lan-60172-1570329711446-0:1) is shutdown | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2019-10-06 10:43:04,625 | INFO  | Closing org.apache.activemq.xbean.XBeanBrokerFactory$1@7bab3f1a: startup date [Sun Oct 06 10:41:50 SGT 2019]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | ActiveMQ ShutdownHook
+2019-10-06 10:43:06,568 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@7bab3f1a: startup date [Sun Oct 06 10:43:06 SGT 2019]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2019-10-06 10:43:07,659 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[/Users/santhoshmanivannan/santhosh-workspace/ShoppingCart/apache-activemq-5.15.10/data/kahadb] | org.apache.activemq.broker.BrokerService | main
+2019-10-06 10:43:07,746 | INFO  | KahaDB is version 6 | org.apache.activemq.store.kahadb.MessageDatabase | main
+2019-10-06 10:43:07,769 | INFO  | Recovering from the journal @1:39714 | org.apache.activemq.store.kahadb.MessageDatabase | main
+2019-10-06 10:43:07,778 | INFO  | Recovery replayed 4 operations from the journal in 0.026 seconds. | org.apache.activemq.store.kahadb.MessageDatabase | main
+2019-10-06 10:43:07,788 | INFO  | PListStore:[/Users/santhoshmanivannan/santhosh-workspace/ShoppingCart/apache-activemq-5.15.10/data/localhost/tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2019-10-06 10:43:07,925 | INFO  | Apache ActiveMQ 5.15.10 (localhost, ID:santhoshs-mbp.lan-60496-1570329787800-0:1) is starting | org.apache.activemq.broker.BrokerService | main
+2019-10-06 10:43:07,943 | INFO  | Listening for connections at: tcp://santhoshs-mbp.lan:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2019-10-06 10:43:07,944 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | main
+2019-10-06 10:43:07,949 | INFO  | Listening for connections at: amqp://santhoshs-mbp.lan:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2019-10-06 10:43:07,950 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | main
+2019-10-06 10:43:07,959 | INFO  | Listening for connections at: stomp://santhoshs-mbp.lan:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2019-10-06 10:43:07,964 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | main
+2019-10-06 10:43:07,971 | INFO  | Listening for connections at: mqtt://santhoshs-mbp.lan:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2019-10-06 10:43:07,973 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | main
+2019-10-06 10:43:07,978 | INFO  | Starting Jetty server | org.apache.activemq.transport.WebTransportServerSupport | main
+2019-10-06 10:43:08,045 | INFO  | Creating Jetty connector | org.apache.activemq.transport.WebTransportServerSupport | main
+2019-10-06 10:43:08,145 | WARN  | ServletContext@o.e.j.s.ServletContextHandler@45d6ef73{/,null,STARTING} has uncovered http methods for path: / | org.eclipse.jetty.security.SecurityHandler | main
+2019-10-06 10:43:08,200 | INFO  | Listening for connections at ws://santhoshs-mbp.lan:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | main
+2019-10-06 10:43:08,201 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | main
+2019-10-06 10:43:08,202 | INFO  | Apache ActiveMQ 5.15.10 (localhost, ID:santhoshs-mbp.lan-60496-1570329787800-0:1) started | org.apache.activemq.broker.BrokerService | main
+2019-10-06 10:43:08,202 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
+2019-10-06 10:43:08,203 | WARN  | Store limit is 102400 mb (current store usage is 0 mb). The data directory: /Users/santhoshmanivannan/santhosh-workspace/ShoppingCart/apache-activemq-5.15.10/data/kahadb only has 70232 mb of usable space. - resetting to maximum available disk space: 70232 mb | org.apache.activemq.broker.BrokerService | main
+2019-10-06 10:43:09,194 | INFO  | ActiveMQ WebConsole available at http://0.0.0.0:8161/ | org.apache.activemq.web.WebConsoleStarter | main
+2019-10-06 10:43:09,195 | INFO  | ActiveMQ Jolokia REST API available at http://0.0.0.0:8161/api/jolokia/ | org.apache.activemq.web.WebConsoleStarter | main
+2019-10-06 11:22:37,038 | INFO  | Apache ActiveMQ 5.15.10 (localhost, ID:santhoshs-mbp.lan-60496-1570329787800-0:1) is shutting down | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2019-10-06 11:22:37,041 | INFO  | Connector openwire stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2019-10-06 11:22:37,043 | INFO  | Connector amqp stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2019-10-06 11:22:37,043 | INFO  | Connector stomp stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2019-10-06 11:22:37,044 | INFO  | Connector mqtt stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2019-10-06 11:22:37,051 | INFO  | Connector ws stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2019-10-06 11:22:37,055 | INFO  | PListStore:[/Users/santhoshmanivannan/santhosh-workspace/ShoppingCart/apache-activemq-5.15.10/data/localhost/tmp_storage] stopped | org.apache.activemq.store.kahadb.plist.PListStoreImpl | ActiveMQ ShutdownHook
+2019-10-06 11:22:37,056 | INFO  | Stopping async queue tasks | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2019-10-06 11:22:37,056 | INFO  | Stopping async topic tasks | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2019-10-06 11:22:37,057 | INFO  | Stopped KahaDB | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2019-10-06 11:22:37,116 | INFO  | Apache ActiveMQ 5.15.10 (localhost, ID:santhoshs-mbp.lan-60496-1570329787800-0:1) uptime 39 minutes | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2019-10-06 11:22:37,118 | INFO  | Apache ActiveMQ 5.15.10 (localhost, ID:santhoshs-mbp.lan-60496-1570329787800-0:1) is shutdown | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2019-10-06 11:22:37,119 | INFO  | Closing org.apache.activemq.xbean.XBeanBrokerFactory$1@7bab3f1a: startup date [Sun Oct 06 10:43:06 SGT 2019]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | ActiveMQ ShutdownHook
+2019-10-06 11:22:45,872 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@146ba0ac: startup date [Sun Oct 06 11:22:45 SGT 2019]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2019-10-06 11:22:46,683 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[/Users/santhoshmanivannan/santhosh-workspace/ShoppingCart/apache-activemq-5.15.10/data/kahadb] | org.apache.activemq.broker.BrokerService | main
+2019-10-06 11:22:46,731 | INFO  | KahaDB is version 6 | org.apache.activemq.store.kahadb.MessageDatabase | main
+2019-10-06 11:22:46,771 | INFO  | PListStore:[/Users/santhoshmanivannan/santhosh-workspace/ShoppingCart/apache-activemq-5.15.10/data/localhost/tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2019-10-06 11:22:46,956 | INFO  | Apache ActiveMQ 5.15.10 (localhost, ID:santhoshs-mbp.lan-53690-1570332166783-0:1) is starting | org.apache.activemq.broker.BrokerService | main
+2019-10-06 11:22:47,037 | INFO  | Listening for connections at: tcp://santhoshs-mbp.lan:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2019-10-06 11:22:47,039 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | main
+2019-10-06 11:22:47,043 | INFO  | Listening for connections at: amqp://santhoshs-mbp.lan:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2019-10-06 11:22:47,045 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | main
+2019-10-06 11:22:47,049 | INFO  | Listening for connections at: stomp://santhoshs-mbp.lan:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2019-10-06 11:22:47,051 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | main
+2019-10-06 11:22:47,054 | INFO  | Listening for connections at: mqtt://santhoshs-mbp.lan:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2019-10-06 11:22:47,056 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | main
+2019-10-06 11:22:47,062 | INFO  | Starting Jetty server | org.apache.activemq.transport.WebTransportServerSupport | main
+2019-10-06 11:22:47,133 | INFO  | Creating Jetty connector | org.apache.activemq.transport.WebTransportServerSupport | main
+2019-10-06 11:22:47,220 | WARN  | ServletContext@o.e.j.s.ServletContextHandler@6436a7db{/,null,STARTING} has uncovered http methods for path: / | org.eclipse.jetty.security.SecurityHandler | main
+2019-10-06 11:22:47,286 | INFO  | Listening for connections at ws://santhoshs-mbp.lan:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | main
+2019-10-06 11:22:47,287 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | main
+2019-10-06 11:22:47,288 | INFO  | Apache ActiveMQ 5.15.10 (localhost, ID:santhoshs-mbp.lan-53690-1570332166783-0:1) started | org.apache.activemq.broker.BrokerService | main
+2019-10-06 11:22:47,289 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
+2019-10-06 11:22:47,290 | WARN  | Store limit is 102400 mb (current store usage is 0 mb). The data directory: /Users/santhoshmanivannan/santhosh-workspace/ShoppingCart/apache-activemq-5.15.10/data/kahadb only has 70214 mb of usable space. - resetting to maximum available disk space: 70214 mb | org.apache.activemq.broker.BrokerService | main
+2019-10-06 11:22:47,904 | INFO  | ActiveMQ WebConsole available at http://0.0.0.0:8161/ | org.apache.activemq.web.WebConsoleStarter | main
+2019-10-06 11:22:47,904 | INFO  | ActiveMQ Jolokia REST API available at http://0.0.0.0:8161/api/jolokia/ | org.apache.activemq.web.WebConsoleStarter | main
+2019-10-06 11:23:39,067 | INFO  | Apache ActiveMQ 5.15.10 (localhost, ID:santhoshs-mbp.lan-53690-1570332166783-0:1) is shutting down | org.apache.activemq.broker.BrokerService | Thread-23
+2019-10-06 11:23:39,069 | INFO  | Connector openwire stopped | org.apache.activemq.broker.TransportConnector | Thread-23
+2019-10-06 11:23:39,070 | INFO  | Connector amqp stopped | org.apache.activemq.broker.TransportConnector | Thread-23
+2019-10-06 11:23:39,071 | INFO  | Connector stomp stopped | org.apache.activemq.broker.TransportConnector | Thread-23
+2019-10-06 11:23:39,072 | INFO  | Connector mqtt stopped | org.apache.activemq.broker.TransportConnector | Thread-23
+2019-10-06 11:23:39,080 | INFO  | Connector ws stopped | org.apache.activemq.broker.TransportConnector | Thread-23
+2019-10-06 11:23:39,084 | INFO  | PListStore:[/Users/santhoshmanivannan/santhosh-workspace/ShoppingCart/apache-activemq-5.15.10/data/localhost/tmp_storage] stopped | org.apache.activemq.store.kahadb.plist.PListStoreImpl | Thread-23
+2019-10-06 11:23:39,085 | INFO  | Stopping async queue tasks | org.apache.activemq.store.kahadb.KahaDBStore | Thread-23
+2019-10-06 11:23:39,087 | INFO  | Stopping async topic tasks | org.apache.activemq.store.kahadb.KahaDBStore | Thread-23
+2019-10-06 11:23:39,088 | INFO  | Stopped KahaDB | org.apache.activemq.store.kahadb.KahaDBStore | Thread-23
+2019-10-06 11:23:39,096 | INFO  | Apache ActiveMQ 5.15.10 (localhost, ID:santhoshs-mbp.lan-53690-1570332166783-0:1) uptime 52.428 seconds | org.apache.activemq.broker.BrokerService | Thread-23
+2019-10-06 11:23:39,096 | INFO  | Apache ActiveMQ 5.15.10 (localhost, ID:santhoshs-mbp.lan-53690-1570332166783-0:1) is shutdown | org.apache.activemq.broker.BrokerService | Thread-23
+2019-10-06 11:23:39,097 | INFO  | Closing org.apache.activemq.xbean.XBeanBrokerFactory$1@146ba0ac: startup date [Sun Oct 06 11:22:45 SGT 2019]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | Thread-23
+2019-10-06 11:35:03,040 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@146ba0ac: startup date [Sun Oct 06 11:35:03 SGT 2019]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2019-10-06 11:35:04,038 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[/Users/santhoshmanivannan/santhosh-workspace/ShoppingCart/apache-activemq-5.15.10/data/kahadb] | org.apache.activemq.broker.BrokerService | main
+2019-10-06 11:35:04,091 | INFO  | KahaDB is version 6 | org.apache.activemq.store.kahadb.MessageDatabase | main
+2019-10-06 11:35:04,131 | INFO  | PListStore:[/Users/santhoshmanivannan/santhosh-workspace/ShoppingCart/apache-activemq-5.15.10/data/localhost/tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2019-10-06 11:35:04,309 | INFO  | Apache ActiveMQ 5.15.10 (localhost, ID:santhoshs-mbp.lan-56724-1570332904143-0:1) is starting | org.apache.activemq.broker.BrokerService | main
+2019-10-06 11:35:04,398 | INFO  | Listening for connections at: tcp://santhoshs-mbp.lan:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2019-10-06 11:35:04,400 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | main
+2019-10-06 11:35:04,407 | INFO  | Listening for connections at: amqp://santhoshs-mbp.lan:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2019-10-06 11:35:04,409 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | main
+2019-10-06 11:35:04,416 | INFO  | Listening for connections at: stomp://santhoshs-mbp.lan:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2019-10-06 11:35:04,419 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | main
+2019-10-06 11:35:04,424 | INFO  | Listening for connections at: mqtt://santhoshs-mbp.lan:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2019-10-06 11:35:04,427 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | main
+2019-10-06 11:35:04,434 | INFO  | Starting Jetty server | org.apache.activemq.transport.WebTransportServerSupport | main
+2019-10-06 11:35:04,566 | INFO  | Creating Jetty connector | org.apache.activemq.transport.WebTransportServerSupport | main
+2019-10-06 11:35:04,683 | WARN  | ServletContext@o.e.j.s.ServletContextHandler@6436a7db{/,null,STARTING} has uncovered http methods for path: / | org.eclipse.jetty.security.SecurityHandler | main
+2019-10-06 11:35:04,770 | INFO  | Listening for connections at ws://santhoshs-mbp.lan:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | main
+2019-10-06 11:35:04,771 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | main
+2019-10-06 11:35:04,773 | INFO  | Apache ActiveMQ 5.15.10 (localhost, ID:santhoshs-mbp.lan-56724-1570332904143-0:1) started | org.apache.activemq.broker.BrokerService | main
+2019-10-06 11:35:04,774 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
+2019-10-06 11:35:04,776 | WARN  | Store limit is 102400 mb (current store usage is 0 mb). The data directory: /Users/santhoshmanivannan/santhosh-workspace/ShoppingCart/apache-activemq-5.15.10/data/kahadb only has 70217 mb of usable space. - resetting to maximum available disk space: 70217 mb | org.apache.activemq.broker.BrokerService | main
+2019-10-06 11:35:05,630 | INFO  | ActiveMQ WebConsole available at http://0.0.0.0:8161/ | org.apache.activemq.web.WebConsoleStarter | main
+2019-10-06 11:35:05,631 | INFO  | ActiveMQ Jolokia REST API available at http://0.0.0.0:8161/api/jolokia/ | org.apache.activemq.web.WebConsoleStarter | main
+2019-10-06 11:38:13,546 | INFO  | Connector vm://localhost started | org.apache.activemq.broker.TransportConnector | qtp1278002745-39
