@@ -46,3 +46,6 @@ JDBC URL: jdbc:h2:mem:shoppingCart
 
 Note : To stop Apache ActiveMQ
 ```./apache-activemq-5.15.10/bin/activemq stop```
+
+# Authors
+* Santhosh Manivannan 
