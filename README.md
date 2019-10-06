@@ -44,5 +44,5 @@ JDBC URL: jdbc:h2:mem:shoppingCart
 ```
 5. Select _PRODUCT_ and run query to view the contents of the table.
 
-Note : To stop Apache ActiveMQ 
-```././apache-activemq-5.15.10/bin/activemq stop```
+Note : To stop Apache ActiveMQ
+```./apache-activemq-5.15.10/bin/activemq stop```
